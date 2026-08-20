@@ -1,0 +1,22 @@
+{
+    "warn": "<:warning:960149520497406042>",
+    "approve": "<:approve:960149520518361189>",
+    "deny": "<:deny:960149520539336724>",
+    "add": "<:add:925855218577604719>",
+    "remove": "<:subtract:925855220360159262>",
+    "cooldown": "<:cooldown:945865279991336980>",
+    "loading": "<a:loading:925855214047739914>",
+    "lastfm": "<:lastfm:946074331014914168>",
+    "left": "<:leftarrow:934988878895542324>",
+    "right": "<:rightarrow:934988879474343997>",
+    "skipto": "<:numberchoose:934988879591788634>",
+    "cancel": "<:xx:932125515609939998>",
+    "nitro": "<:nitro:930190924791820288>",
+    "booster": "<:serverbooster:930190946082107432>",
+    "white": "<:levels_white:945813779600527422>",
+    "whiteLeft": "<:levels_white_left_rounded:945813779512459316>",
+    "whiteRight": "<:levels_white_right_rounded:945813779541819426>",
+    "blue": "<:levels_blue:945813779764105257>",
+    "blueLeft": "<:levels_blue_left_rounded:945813779944468520>",
+    "blueRight": "<:levels_blue_right_rounded:945813779931885628>"
+  }

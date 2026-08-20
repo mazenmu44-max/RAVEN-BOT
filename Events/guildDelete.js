@@ -1,0 +1,13 @@
+const client = require('../bleed')
+const servers = require('../Models/Staff/server')
+const { MessageEmbed } = require('discord.js')
+const colors = require('../Data/colors.json')
+client.on('guildDelete', async (guild) => {
+    const owner = await guild.fetchOwner()
+    const data = await servers.findOne({ server: guild.id })
+    const log = new MessageEmbed()
+    .setDescription(`Left **${guild.name}**, owned by **${owner.user.tag}** with **${guild.memberCount}** members.`)
+    .setFooter({ text : `${guild.id}` })
+    .setColor(colors.raven)
+    client.channels.cache.get('964372532474028092').send({ embeds : [log] })
+})
